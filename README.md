@@ -49,3 +49,6 @@ And the output was:
 API response:  Prediction(predictions=[[17.07827]], deployed_model_id='3038003404103221248', explanations=None)
 Predicted MPG:  17.07827
 ```
+
+## Bonus
+For the bonus part, I built another model for the task of sentiment analysis with TensorFlow, using IMDB data set. The tutorial I followed can be found [here](https://www.tensorflow.org/tutorials/keras/text_classification). The end-to-end process was analogous to the original challenge task. All relevant files, including the code, can be found under the directory ```textcl```.
