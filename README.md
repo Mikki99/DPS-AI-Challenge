@@ -29,6 +29,8 @@ docker push $IMAGE_URI
 Now came the main part - the actual training of the model. Custom training option was used for this purpose, instead of the AutoML, as well as the custom Docker container. The machine type used for this purpose was the **n1-standard-4** (4vCPUs, 15 GB memory). Here is the trained model summary:
 ![Model summary](/img/trained_model.jpg)
 
+Additionally, a short video describing the workflow for solving the challenge can be found under the ```video``` directory.
+
 ## Creating an endpoint for the trained model
 For the purpose of creating a model resource and deploying it to an endpoint, the ```deploy.py``` file was created. The following command was executed from the root directory:
 ```shell
